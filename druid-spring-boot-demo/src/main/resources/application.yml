@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/gaotu?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://localhost-db:3306/gaotu?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
     username: root
     password: qwer1234
     type: com.alibaba.druid.pool.DruidDataSource
@@ -47,3 +47,7 @@ spring:
         login-username: admin
         # 登录密码
         login-password: admin
+
+mybatis:
+  config-location: classpath:/mybatis/mybatis-config.xml
+  mapper-locations: classpath:/mappers/*.xml

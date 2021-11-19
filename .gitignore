@@ -18,3 +18,5 @@ out/
 /druid-inner-test
 hs_err_pid*.log
 replay_pid*.log
+target
+*.class

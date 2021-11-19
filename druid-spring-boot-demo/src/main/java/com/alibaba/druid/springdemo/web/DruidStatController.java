@@ -2,7 +2,7 @@
  * Baijiahulian.com Inc. Copyright (c) 2014-2019 All Rights Reserved.
  */
 
-package com.alibaba.druid.springdemo;
+package com.alibaba.druid.springdemo.web;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
